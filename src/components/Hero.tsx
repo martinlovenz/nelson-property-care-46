@@ -16,7 +16,7 @@ const Hero = () => {
           <img
             src={logo}
             alt="Martin Love Contracting Logo"
-            className="h-16 md:h-20 w-auto drop-shadow-lg relative -left-px"
+            className="h-16 md:h-20 w-auto drop-shadow-lg relative left-px"
           />
         </div>
         <h1 className="text-5xl md:text-7xl lg:text-8xl text-primary-foreground tracking-wider mb-4">
