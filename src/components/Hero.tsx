@@ -15,7 +15,7 @@ const Hero = () => {
         <img
           src={logo}
           alt="Martin Love Contracting Logo"
-          className="mx-auto mb-8 h-24 md:h-32 w-auto drop-shadow-lg"
+          className="mx-auto mb-8 h-48 md:h-64 w-auto drop-shadow-lg"
         />
         <h1 className="text-5xl md:text-7xl lg:text-8xl text-primary-foreground tracking-wider mb-4">
           Property Maintenance
