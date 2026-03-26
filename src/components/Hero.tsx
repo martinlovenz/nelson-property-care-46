@@ -12,11 +12,13 @@ const Hero = () => {
       <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} />
       
       <div className="relative z-10 container mx-auto px-6 text-center">
-        <img
-          src={logo}
-          alt="Martin Love Contracting Logo"
-          className="mx-auto mb-8 h-24 md:h-32 w-auto drop-shadow-lg"
-        />
+        <div className="flex justify-center mb-8">
+          <img
+            src={logo}
+            alt="Martin Love Contracting Logo"
+            className="h-16 md:h-20 w-auto drop-shadow-lg"
+          />
+        </div>
         <h1 className="text-5xl md:text-7xl lg:text-8xl text-primary-foreground tracking-wider mb-4">
           Property Maintenance
         </h1>
