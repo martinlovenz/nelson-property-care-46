@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary/95 backdrop-blur-md border-b border-secondary-foreground/10">
       <div className="container mx-auto px-6 flex items-center justify-between h-16">
         <a href="#">
-          <img src={logo} alt="Martin Love Contracting" className="h-20 w-auto" />
+          <img src={logo} alt="Martin Love Contracting" className="h-10 w-auto" />
         </a>
         <div className="hidden md:flex items-center gap-8">
           {links.map((link) => (
